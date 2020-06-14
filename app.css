@@ -1,6 +1,6 @@
 :root {
     background-color: #e4fde4;
-    font-size: 62,5%;
+    font-size: 90.5%;
 }
 
 *{
@@ -19,18 +19,18 @@ h4 {
 }
 
 h1 {
-    font-size: 2.8rem;
+    font-size: 2.0rem;
     color: #0d9450;
     margin-bottom: 5rem;
 }
 
 h1 > span {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 4rem;
     font-weight: 700;
 }
@@ -38,19 +38,21 @@ h2 {
 h3 {
     font-size: 1rem;
     font-weight: 500;
+    font-style: italic;
+    color: #105733;
 }
 
 /* UTILLITIES */
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 80rem;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .container > * {
@@ -94,7 +96,7 @@ h3 {
   }
   
   .btn:hover {
-    cursor: pointer;
+    cursor: auto;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 235, 161, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
